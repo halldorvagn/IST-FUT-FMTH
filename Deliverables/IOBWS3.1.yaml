@@ -6107,7 +6107,7 @@ components:
         Standardised definition of purpose code required by the Icelandic Central Bank.
       type: string
       maxLength: 3
-      example: "099"
+      example: "OFL"
     
     posEntryMode:
       description: |
@@ -6765,7 +6765,6 @@ components:
           * credit-transfers
           * claim-payments
           * payment-card-deposits
-          * foreign-payment
 
       type: object
       required:
@@ -14895,7 +14894,7 @@ components:
             "postCode": "101",
             "country": "IS"
           },
-          "centralBankPurposeCode": "099",
+          "centralBankPurposeCode": "OFL",
           "remittanceInformationUnstructured": "My description"
         }
     
@@ -14932,7 +14931,7 @@ components:
             "country": "DK"
           },
           "serviceLevel": "URGP",
-          "centralBankPurposeCode": "099",
+          "centralBankPurposeCode": "OFL",
           "remittanceInformationUnstructured": "My description"
         }
 
